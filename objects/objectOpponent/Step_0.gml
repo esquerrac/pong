@@ -1,13 +1,13 @@
 if (global.difficulty ==1){
 	if (instance_exists(objectBall)){
 		if (objectBall.direction < 90 || objectBall.direction>270){
-			if (objectBall.y > y){
+			if (objectBall.y > y+10){
 				if (irandom_range(1,3) ==1) {
-					motion_set(270,5)
+					motion_add(270,5)
 				}
-			}else if (objectBall.y < y){
+			}else if (objectBall.y < y-10){
 				if (irandom_range(1,3) ==1) {
-					motion_set(90, 5)
+					motion_add(90, 5)
 				}
 			}
 		}else if (objectBall.direction >90 || objectBall.direction < 270){
@@ -19,11 +19,11 @@ if (global.difficulty ==1){
 		if (objectBall.direction < 90 || objectBall.direction>270){
 			if (objectBall.y > y){
 				if (irandom_range(1,2) ==1) {
-					motion_set(270,7)
+					motion_set(270,5)
 				}
 			}else if (objectBall.y < y){
 				if (irandom_range(1,2) ==1) {
-					motion_set(90, 7)
+					motion_set(90, 5)
 				}
 			}
 		}else if (objectBall.direction >90 || objectBall.direction < 270){
@@ -39,11 +39,9 @@ if (global.difficulty ==1){
 }else if (global.difficulty ==3){
 	if (instance_exists(objectBall)){
 		if (objectBall.y > y){
-				motion_set(0,0)
-				motion_add(270, 15)
+				motion_add(270, 2)
 		}else if (objectBall.y < y){
-				motion_set(0,0)
-				motion_add(90, 15)
+				motion_add(90, 2)
 		}
 	}
 }

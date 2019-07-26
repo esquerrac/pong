@@ -1,3 +1,1 @@
-if (speed!=0){
-	friction=1
-}
+friction = 0.75;

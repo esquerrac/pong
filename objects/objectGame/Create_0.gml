@@ -1,3 +1,5 @@
 global.pScore = 0;
 global.oScore= 0;
-global.difficulty = 3;
+global.difficulty = 1;
+
+room = roomStart;
