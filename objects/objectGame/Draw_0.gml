@@ -1,4 +1,8 @@
 if (room==roomStart){
+	draw_text(
+	100, 400,
+	string(global.difficulty)
+	)
 	draw_set_halign(fa_center);
 	var c = c_teal;
 	draw_text_transformed_color(

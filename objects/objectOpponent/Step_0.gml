@@ -19,11 +19,11 @@ if (global.difficulty ==1){
 		if (objectBall.direction < 90 || objectBall.direction>270){
 			if (objectBall.y > y){
 				if (irandom_range(1,2) ==1) {
-					motion_set(270,5)
+					motion_set(270,7)
 				}
 			}else if (objectBall.y < y){
 				if (irandom_range(1,2) ==1) {
-					motion_set(90, 5)
+					motion_set(90, 7)
 				}
 			}
 		}else if (objectBall.direction >90 || objectBall.direction < 270){
