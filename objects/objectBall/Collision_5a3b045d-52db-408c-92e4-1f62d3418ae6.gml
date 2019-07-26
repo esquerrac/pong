@@ -8,3 +8,6 @@ if (hspeed<0){
 }else if (hspeed>0){
 	hspeed = hspeed+.2;
 }
+if (global.powerShot != 100){
+	global.powerShot+=10
+}

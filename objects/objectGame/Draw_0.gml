@@ -57,7 +57,7 @@ Press Enter to Begin"
 }
 	
 if (room==roomGame){
-	var c =c_gray
+	var c =c_white
 	draw_set_halign(fa_center);
 	draw_text_transformed_color(
 		room_width/2,
@@ -80,5 +80,6 @@ if (room==roomGame){
 	223, 20,
 	"Powershot"
 	)
-	
+	draw_healthbar(63, 50, 143, 70, global.powerDive, c_gray, c_blue, c_lime, 0, true, true);
+	draw_healthbar(183, 50, 263, 70, global.powerShot, c_gray, c_red, c_orange, 0, true, true);
 }
