@@ -3,7 +3,7 @@ if (room==roomGame){
 	draw_set_halign(fa_center);
 	draw_text_transformed_color(
 		room_width/2,
-		342, 
+		1, 
 		string(global.pScore)+" - "+string(global.oScore),
 		5,
 		5,
