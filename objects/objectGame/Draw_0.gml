@@ -72,4 +72,13 @@ if (room==roomGame){
 		c,
 		1,
 	)
+	draw_text(
+	103, 20,
+	"Dive"
+	)
+	draw_text(
+	223, 20,
+	"Powershot"
+	)
+	
 }
