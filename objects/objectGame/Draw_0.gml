@@ -1,18 +1,25 @@
 if (room==roomStart){
 	draw_set_halign(fa_center);
-	var c = c_lime;
+	var c = c_teal;
 	draw_text_transformed_color(
 		room_width/2,
 		200, 
 		"Pong",
-		5,
-		5,
+		3,
+		3,
 		0,
 		c,
 		c,
 		c,
 		c,
 		1,
+	)
+	draw_text(
+	room_width/2, 400,
+	@"Select difficulty
+Easy
+Normal
+Hard"
 	)
 }
 if (room==roomGame){
