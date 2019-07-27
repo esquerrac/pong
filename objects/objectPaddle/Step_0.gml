@@ -30,5 +30,7 @@ if (global.powerShot ==100){
 			objectBall.vspeed = curV+1;
 		}
 		global.powerShot = 0;
+		repeat(500)
+		instance_create_layer(x, y, "Instances", objectBlast)
 	}
 }
