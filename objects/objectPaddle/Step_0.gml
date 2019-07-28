@@ -17,6 +17,7 @@ if (global.powerDive==100){
 
 if (global.powerShot ==100){
 	if (keyboard_check_pressed(vk_space)){
+		audio_play_sound(powerShot, 1, false)
 		var curH = objectBall.hspeed;
 		var curV = objectBall.vspeed;
 		if (curH<0){
@@ -30,7 +31,5 @@ if (global.powerShot ==100){
 			objectBall.vspeed = curV+1;
 		}
 		global.powerShot = 0;
-		repeat(500)
-		instance_create_layer(x, y, "Instances", objectBlast)
 	}
 }

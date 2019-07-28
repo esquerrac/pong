@@ -1,3 +1,4 @@
+audio_play_sound(wallBounce, 1, false)
 if (vspeed<0){
 	vspeed = abs(vspeed)+.2;
 }else if (vspeed>0){

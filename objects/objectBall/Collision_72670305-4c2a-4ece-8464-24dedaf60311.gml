@@ -1,3 +1,4 @@
+audio_play_sound(oppBounce, 1, false)
 if (hspeed<0){
 	hspeed = abs(hspeed)+.2;
 }else if (hspeed>0){

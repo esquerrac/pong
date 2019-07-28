@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "2d874c6b-a7f6-4ee1-a03a-95a5b39fc80e",
+            "Value": {
+                "id": "5128f93e-207b-456a-8d53-7b2083e2c4be",
+                "resourcePath": "sounds\\powerShot\\powerShot.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "2f13174d-b859-415a-85a4-a7f59363220c",
             "Value": {
                 "id": "3697fd2d-cdc2-41da-9a59-cf9d13ef317d",
@@ -159,6 +167,22 @@
             }
         },
         {
+            "Key": "5a7bc734-3e9e-42ad-86b2-525cdc964379",
+            "Value": {
+                "id": "22f79c95-82c1-49af-8629-10c94af76315",
+                "resourcePath": "sounds\\oppBounce\\oppBounce.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "616eaccf-b591-4002-a2d3-a0a2253574cc",
+            "Value": {
+                "id": "63d6ca39-bff2-4df5-b1a4-66bea3c46501",
+                "resourcePath": "sounds\\playScore\\playScore.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "65d1a63a-761f-421a-88b9-869c00177aa1",
             "Value": {
                 "id": "1fafa052-3965-4efc-855a-3c9507b58ac4",
@@ -167,11 +191,27 @@
             }
         },
         {
+            "Key": "6a66fe11-477e-478b-a1b3-60125987c3fa",
+            "Value": {
+                "id": "4c403ee2-9454-4750-8e7e-2fd171db3426",
+                "resourcePath": "sounds\\oppScore\\oppScore.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "74f6334f-1f39-4657-82c1-bd64e9d493f5",
             "Value": {
                 "id": "c4cf1cad-aaa3-484e-9e17-b56039bfb796",
                 "resourcePath": "views\/74f6334f-1f39-4657-82c1-bd64e9d493f5.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "788d6c50-c9ae-4efc-a72a-741b2a871f86",
+            "Value": {
+                "id": "69724da4-a60e-4f5b-bbd2-c26b9720b470",
+                "resourcePath": "sounds\\playBounce\\playBounce.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -260,6 +300,14 @@
                 "id": "5ea477df-9af9-49b0-a3d1-7d0d910af000",
                 "resourcePath": "fonts\/fontText\/fontText.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "c15be34a-9aa1-4565-b35a-58a2a5641882",
+            "Value": {
+                "id": "02eaac9f-a083-4678-98e7-a62bdff89c73",
+                "resourcePath": "sounds\\wallBounce\\wallBounce.yy",
+                "resourceType": "GMSound"
             }
         },
         {
