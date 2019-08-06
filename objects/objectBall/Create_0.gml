@@ -1,2 +1,2 @@
-hspeed = choose(-3, 3);
-vspeed = choose(-3, 3);
+hspeed = choose(-4, 4);
+vspeed = choose(-4, 4);

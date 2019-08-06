@@ -37,11 +37,14 @@ if (global.difficulty ==1){
 		}
 	}
 }else if (global.difficulty ==3){
+	friction= 0;
 	if (instance_exists(objectBall)){
-		if (objectBall.y > y){
-				motion_add(270, 2)
-		}else if (objectBall.y < y){
-				motion_add(90, 2)
+		if (objectBall.y > y+5){
+			y+=10
+				//motion_add(270, 2.5)
+		}else if (objectBall.y < y-5){
+			y-=10
+				//motion_add(90, 2.5)
 		}
 	}
 }
