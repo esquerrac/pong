@@ -10,6 +10,11 @@ if (keyboard_check(vk_up)){
 
 if (global.powerDive==100){
 	if (keyboard_check_pressed(vk_shift)){
+		if (y<255){
+			y=255
+		}else if (y>540){
+			y=540
+		}
 		image_yscale = 3;
 		global.powerDive = 0;
 	}

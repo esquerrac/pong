@@ -1,8 +1,8 @@
 if (room==roomStart) {
-	if (keyboard_check_pressed(vk_down)){
+	if (keyboard_check_pressed(vk_down)&& y<460){
 		instance_destroy();
 		instance_create_layer(room_width/2-3, y+20, "Instances", objectMenu);
-	}else if (keyboard_check_pressed(vk_up)){
+	}else if (keyboard_check_pressed(vk_up) && y>430){
 		instance_destroy();
 		instance_create_layer(room_width/2-3, y-20, "Instances", objectMenu);
 	}

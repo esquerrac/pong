@@ -19,7 +19,12 @@ if (room==roomStart){
 	@"Select difficulty
 Easy
 Normal
-Hard"
+Hard
+
+Build your [POWERSHOT] and [REACH] meters to unleash special abilities!
+Press [SHIFT] to increase your paddle size until next shot
+Press [SPACE] to strike ball with special shot reaching anywhere on the field
+"
 	)
 }
 if (room==roomInstructions && global.difficulty==1){
@@ -127,7 +132,7 @@ if (room==roomGame){
 	)
 	draw_text(
 	103, 20,
-	"Dive"
+	"Reach"
 	)
 	draw_text(
 	223, 20,
