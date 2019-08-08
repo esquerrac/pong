@@ -15,6 +15,7 @@ if (global.powerDive==100){
 		}else if (y>540){
 			y=540
 		}
+		audio_play_sound(soundReach, 1, false)
 		image_yscale = 3;
 		global.powerDive = 0;
 	}

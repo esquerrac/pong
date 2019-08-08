@@ -23,6 +23,7 @@ if (global.difficulty!=3){
 	}
 }
 if (objectPaddle.image_yscale !=1){
+	audio_play_sound(reachEnd, 1, false)
 	objectPaddle.image_yscale = 1
 }
 if (global.powerDive != 100){
