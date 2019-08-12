@@ -79,7 +79,36 @@
     "physicsRestitution": 0.1,
     "physicsSensor": false,
     "physicsShape": 1,
-    "physicsShapePoints": null,
+    "physicsShapePoints": [
+        {
+            "id": "982a85fb-d4e3-4a76-a075-c8c6df801979",
+            "modelName": "GMPoint",
+            "mvc": "1.0",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "id": "b57ebae4-1556-4bbe-84c1-49a9b55e0d38",
+            "modelName": "GMPoint",
+            "mvc": "1.0",
+            "x": 10,
+            "y": 0
+        },
+        {
+            "id": "2be5c32e-9077-453d-8adb-7b35dba7d89b",
+            "modelName": "GMPoint",
+            "mvc": "1.0",
+            "x": 10,
+            "y": 10
+        },
+        {
+            "id": "4742161a-380d-4d93-a8f3-fe3a63b927c2",
+            "modelName": "GMPoint",
+            "mvc": "1.0",
+            "x": 0,
+            "y": 10
+        }
+    ],
     "physicsStartAwake": true,
     "properties": null,
     "solid": true,

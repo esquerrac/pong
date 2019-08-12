@@ -10,6 +10,10 @@ if (room==roomInstructions){
 }
 if (room ==roomLose || room==roomWin){
 	if (keyboard_check_pressed(vk_enter)){
+		global.pScore = 0;
+		global.oScore= 0;
+		global.powerDive = 0;
+		global.powerShot = 0;
 		room_goto(roomStart)
 	}
 }

@@ -10,10 +10,10 @@ if (keyboard_check(vk_up)){
 
 if (global.powerDive==100){
 	if (keyboard_check_pressed(vk_shift)){
-		if (y<255){
-			y=255
-		}else if (y>540){
-			y=540
+		if (y<310){
+			y=310
+		}else if (y>510){
+			y=510
 		}
 		audio_play_sound(soundReach, 1, false)
 		image_yscale = 3;
